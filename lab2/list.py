@@ -20,3 +20,29 @@ print(type(mylist)) #<class 'list'>
 
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(thislist)
+
+#ACCESS LIST ITEMS
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist[-1])
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:5])
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[:4])
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:])
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[-4:-1])
+
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list")
+
+#CHANGE LIST ITEMS
+
