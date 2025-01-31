@@ -1,3 +1,4 @@
+```python
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
@@ -48,4 +49,5 @@ for x in adj:
 #10
 for x in [0, 1, 2]:
   pass
+```
 
