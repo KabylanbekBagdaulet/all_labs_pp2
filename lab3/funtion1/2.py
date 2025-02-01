@@ -1,4 +1,3 @@
-
 movies = [
 {
 "name": "Usual Suspects", 
@@ -76,11 +75,10 @@ movies = [
 "category": "Romance"
 }
 ]
-def imdb(movies):
-    name=input("name:")
+def score(movies):
+    result =[]
     for movie in movies:
-        if movie["name"]==name:
-            if movie["imdb"]>5.5:
-                return True
-    return False
-print(imdb(movies))
+        if movie["imdb"]>5.5:
+            result.append(movie)
+    return result
+print(score(movies))

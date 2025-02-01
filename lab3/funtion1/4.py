@@ -1,4 +1,3 @@
-
 movies = [
 {
 "name": "Usual Suspects", 
@@ -76,11 +75,20 @@ movies = [
 "category": "Romance"
 }
 ]
-def imdb(movies):
-    name=input("name:")
+def imdvpoint(movies,name):
+    sum=0
+    cnt=0
     for movie in movies:
-        if movie["name"]==name:
-            if movie["imdb"]>5.5:
-                return True
-    return False
-print(imdb(movies))
+        if movie["name"] in name:
+            sum+=movie["imdb"]
+            cnt+=1
+    return sum/cnt
+name=[]
+while name1!="done":
+    
+    name1=input("name movie:")
+    if name1 == 'done':
+        break
+    name.append(name1)
+
+print(imdvpoint(movies,name))
