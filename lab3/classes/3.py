@@ -9,8 +9,8 @@ class Rectangle():
         return self.length * self.width
 length = float(input("Length: "))
 width = float(input("Width: "))
-audan=Rectangle(length,width)
-print("Area of the rectangle:",audan.area())
+area1=Rectangle(length,width)
+print("Area of the rectangle:",area1.area())
 
 
 

@@ -1,9 +1,9 @@
 class String:
     def getstring(self):
-        self.sentence=input("Sentense:")
+        self.sentence=input("Sentence:")
     def printstring(self):
-        print("With upper case:"+self.sentence.upper())
+        print("Upper case:"+self.sentence.upper())
         
-mystring=String()
-mystring.getstring()
-mystring.printstring()
+check1=String()
+check1.getstring()
+check1.printstring()

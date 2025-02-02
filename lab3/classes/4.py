@@ -23,9 +23,9 @@ point1 = Point(a,b)
 point2 = Point(a,b)
 
 point1.show() 
-k=float(input("x1:"))
-p=float(input("y1:"))
-point1.move(k,p)
+a=float(input("x1:"))
+b=float(input("y1:"))
+point1.move(a,b)
 point1.show() 
 
 distance = point1.dist(point2)
